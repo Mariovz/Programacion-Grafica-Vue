@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pagina parcial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="./js/vue.js"></script>
+</head>
+
+
+<header>
+    <nav class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-0 shadow">
+        <a class="fa fa-bars navbar-brand col-md-3 col-lg-2 mr-0 px-3">
+            <img src="icons/justice.png" width="35px" height="35px" style="position: relative;">
+            <span style="position: absolute;  margin-left: 29px; border-style: solid; padding-left: 60px; padding-right: 60px; background-color: rgba(255, 0, 0, 0.3);">Nombre</span>
+            <span style="position: absolute;  margin-left: 970px; border-style: solid; padding-left: 60px; padding-right: 60px; background-color: rgba(255, 0, 0, 0.3); text-align: right;">Usuario</span>
+        </a>
+        <ul class="navbar-nav px-3">
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" ><i class="fa fa-arrow-right"></i>Salir</a>
+          </li>
+        </ul>
+    </nav>
+</header>
+<body>
+<div class="d-flex" id="wrapper">
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action bg-light">
+                <i class="fa fa-home" href="#"></i>&nbsp; Inicio</br>
+                <i class="fa fa-gavel" href="#"></i>&nbsp; Expedientes
+            </a>
+            <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-file-text"></i>&nbsp; Reportes</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-cog"></i>&nbsp; Configuración</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-folder"></i>&nbsp; Aseguradora</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-user"></i>&nbsp; Usuario</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-university"></i>&nbsp; Juzgado</a>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+    
+        <H1> Agenda del dia</H1>
+        <h2> Miercoles 7 de octubre de 2020</h2>
+        <br>
+    
+        <section>
+    
+    
+        <table class="table-sm table-striped">
+            <tr>
+                <th> ASEGURADORA</th>
+                <th> ASEGURADORA</th>
+                <th> JUZGADO</th>
+            </tr>
+            <tr>
+                <td>ASSA</td>
+                <td>ANTHONY TREJOS</td>
+                <td>JUZGADO 5tO(PEDREGAL)</td>
+            </tr>
+            <tr>
+                <td>ANCON</td>
+                <td>LUIS MOLINA</td>
+                <td>JUZGADO 4TO(PEDREGAL)</td>
+            </tr>
+            <tr>
+                <td>ASSA</td>
+                <td>KATHERINE KENT</td>
+                <td>JUZGADO 5TO(PEDREGAL)</td>
+            </tr>
+            <tr>
+                <td>CONANCE</td>
+                <td>MARTIN ALVARADO</td>
+                <td> JUZGADO 1RO</td>
+            </tr>
+            <tr>
+                <td>PARTICULAR</td>
+                <td>JOEL ARAUZ RODRIGUEZ</td>
+                <td>JUZGADO 3RO</td>
+            </tr>
+            <tr>
+                <td> INTEROCEANICA</td>
+                <td> MICHELLE VEGA</td>
+                <td> ALCALDIA DE PANAMA</td>
+            </tr>
+            <tr>
+                <td>ANCON</td>
+                <td>CANDICE HENRY</td>
+                <td> CHITRE</td>
+            </tr>
+        </table>
+        <br>
+        
+    
+        <div class="container" >
+            <a class="btn btn-warning btn-lg" href="#" style="background: #D19A08; color:#FBFAF8"><i class="fa fa-files-o"></i>&nbsp;<sup>Pendientes</sup>102</a>
+            <a class="btn btn-warning btn-lg" href="#" style="color:#FBFAF8"><i class="fa fa-file"></i>&nbsp;<sup>En Curso</sup> 72</a>
+            <a class="btn btn-secondary btn-lg" href="#"><i class="fa fa-file-archive-o"></i>&nbsp; <sup>Cerrados</sup> 204</a>
+        </div>
+    
+        </section>
+    </div>  
+
+    <div class="container" style="float:right; margin-top: 5%; ">
+        <div class="row">
+            <div class="span12">
+                <table class="table-condensed table-striped">
+                    <thead>
+                        <tr>
+                          <th colspan="7">
+                            <span class="btn-group">
+                                <a class="btn"><i class="icon-chevron-left"></i></a>
+                                <a class="btn active"> < <strong> Octubre 2020 </strong> > </a>
+                                <a class="btn"><i class="icon-chevron-right"></i></a>
+                            </span>
+                          </th>
+                        </tr>
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>T</th>
+                            <th>W</th>
+                            <th>T</th>
+                            <th>F</th>
+                            <th>S</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="muted">1</td>
+                            <td class="muted">2</td>
+                            <td class="muted">3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                        
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+  
+   
+   
+     
+ </body>
+ </html>
